@@ -93,7 +93,7 @@ spec:
         branchName: main
         serviceSpecPath: ./spec.yaml
         # Update the following fields to match the resources in your AWS account
-        region: us-east-1
+        region: ap-northeast-2
         templateName: load-balanced-fargate-svc
         templateMajorVersion: '1'
         repositoryConnectionArn: 'arn:aws:codestar-connections:ap-northeast-2:511766833636:connection/13b2afde-7541-479a-bfbc-d100dbffceca'
