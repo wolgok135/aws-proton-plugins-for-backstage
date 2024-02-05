@@ -69,9 +69,9 @@ spec:
           aws_proton_dev_environment_name: "backstage-proton-plugins-tutorial-env"
           aws_proton_prod_environment_name: "backstage-proton-plugins-tutorial-env"
           # The AWS account where the Proton service will be created
-          aws_account_id: "111111111111"
+          aws_account_id: "511766833636"
           # The AWS region where the Proton service will be created
-          aws_region: us-east-1
+          aws_region: ap-northeast-2
 
     - id: publish
       name: Publish
@@ -96,7 +96,7 @@ spec:
         region: us-east-1
         templateName: load-balanced-fargate-svc
         templateMajorVersion: '1'
-        repositoryConnectionArn: 'arn:aws:codestar-connections:us-east-1:111111111111:connection/c176b204-5bb1-48f1-b977-5aff4fa2df9d'
+        repositoryConnectionArn: 'arn:aws:codestar-connections:ap-northeast-2:511766833636:connection/13b2afde-7541-479a-bfbc-d100dbffceca'
 
     - id: register
       name: Register
