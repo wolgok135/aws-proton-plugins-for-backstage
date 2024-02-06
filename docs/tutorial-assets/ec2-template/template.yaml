@@ -1,13 +1,12 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: fargate-nginx-template
-  title: Nginx Fargate Web Service
-  description: Create a simple website using Nginx and AWS Fargate
+  name: ec2-template
+  title: ec2 instance resource
+  description: ec2 instance provisioning
   tags:
     - recommended
-    - nginx
-    - fargate
+    - ec2
 spec:
   owner: service@example.com
   type: service
@@ -94,8 +93,8 @@ spec:
         serviceSpecPath: ./spec.yaml
         # Update the following fields to match the resources in your AWS account
         region: ap-northeast-2
-        templateName: load-balanced-fargate-svc
-        templateMajorVersion: '1'
+        templateName: ec2-svc
+        # templateMajorVersion: '1'
         repositoryConnectionArn: 'arn:aws:codestar-connections:ap-northeast-2:511766833636:connection/13b2afde-7541-479a-bfbc-d100dbffceca'
 
     - id: register
